@@ -1,13 +1,11 @@
 import React from "react";
-import TopNavbar from "./Components/TopNavbar";
+import HomeScreen from "./Screens/HomeScreen";
 import "./styles/App.css";
 
 function App() {
   return (
     <div className="app">
-      <header>
-        <TopNavbar />
-      </header>
+      <HomeScreen />
     </div>
   );
 }
