@@ -9,6 +9,15 @@
   margin: 14px 0;
 }
 
+.filterSection > button {
+  border: none;
+  width: 100%;
+  height: 40px;
+  margin-top: 20px;
+  background-color: #000000;
+  color: #ffffff;
+}
+
 form {
   display: grid;
   margin-top: 15px;
