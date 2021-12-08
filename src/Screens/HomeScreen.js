@@ -56,8 +56,7 @@ function HomeScreen() {
       }
       final = s;
     } else {
-      var b = final.filter((recipe) => recipe.area === area[0]);
-      final = b;
+      final = final.filter((recipe) => recipe.area === area[0]);
     }
 
     if (ingredient.length > 1) {
@@ -72,8 +71,7 @@ function HomeScreen() {
       }
       final = s;
     } else {
-      var h = final.filter((recipe) => recipe.area === area[0]);
-      final = h;
+      final = final.filter((recipe) => recipe.area === area[0]);
     }
     setRecipes(final);
   };
