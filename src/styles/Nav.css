@@ -71,6 +71,10 @@
   max-height: 60px;
 }
 
+.search_div {
+  display: flex;
+}
+
 .search_div > select {
   border-right-width: 0;
 }
@@ -87,7 +91,7 @@
 }
 
 .search_div > button {
-  padding: 12px;
+  padding: 12px 16px;
   background-color: #fadd33;
   color: #000000;
   border: none;
